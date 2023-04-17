@@ -19328,19 +19328,19 @@ jp-needs-light-background
 <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
     <span class="s2">"model"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"initial"</span><span class="p">,</span> <span class="s2">"add_features"</span><span class="p">,</span> <span class="s2">"hpo"</span><span class="p">],</span>
     <span class="s2">"hpo1"</span><span class="p">:</span> <span class="p">[</span>
-        <span class="s1">'default_vals'</span><span class="p">,</span> 
-        <span class="s1">'default_vals'</span><span class="p">,</span> 
+        <span class="s1">'default'</span><span class="p">,</span> 
+        <span class="s1">'default'</span><span class="p">,</span> 
         <span class="s1">'GBM (LightGBM) : num_boost_round: [lower=100, upper=200, default=100], num_leaves:[lower=21, upper=51, default=31] applying random search with 5 trials'</span>
         <span class="p">],</span>
     <span class="s2">"hpo2"</span><span class="p">:</span> <span class="p">[</span>
-        <span class="s1">'default_vals'</span><span class="p">,</span> 
-        <span class="s1">'default_vals'</span><span class="p">,</span> 
+        <span class="s1">'default'</span><span class="p">,</span> 
+        <span class="s1">'default'</span><span class="p">,</span> 
         <span class="s1">'CAT (CatBoost) : depth : [lower=6, upper=10] applying random search with 5 trials'</span>
         <span class="p">],</span>
     <span class="s2">"hpo3"</span><span class="p">:</span> <span class="p">[</span>
-        <span class="s1">'default_vals'</span><span class="p">,</span> 
-        <span class="s1">'default_vals'</span><span class="p">,</span> 
-        <span class="s1">'XGB (XGBoost): n_estimators : max_depth : [lower=6, upper=10, default=6] applying random search with 5 trials'</span>
+        <span class="s1">'default'</span><span class="p">,</span> 
+        <span class="s1">'default'</span><span class="p">,</span> 
+        <span class="s1">'XGB (XGBoost): max_depth : [lower=6, upper=10, default=6] applying random search with 5 trials'</span>
         <span class="p">],</span>
     <span class="s2">"score"</span><span class="p">:</span> <span class="p">[</span><span class="mf">1.84484</span><span class="p">,</span> <span class="mf">0.64809</span><span class="p">,</span> <span class="mf">0.47806</span><span class="p">]</span>
 <span class="p">})</span>
@@ -19395,17 +19395,17 @@ jp-needs-light-background
     <tr>
       <th>0</th>
       <td>initial</td>
-      <td>default_vals</td>
-      <td>default_vals</td>
-      <td>default_vals</td>
+      <td>default</td>
+      <td>default</td>
+      <td>default</td>
       <td>1.84484</td>
     </tr>
     <tr>
       <th>1</th>
       <td>add_features</td>
-      <td>default_vals</td>
-      <td>default_vals</td>
-      <td>default_vals</td>
+      <td>default</td>
+      <td>default</td>
+      <td>default</td>
       <td>0.64809</td>
     </tr>
     <tr>
@@ -19413,7 +19413,7 @@ jp-needs-light-background
       <td>hpo</td>
       <td>GBM (LightGBM) : num_boost_round: [lower=100, ...</td>
       <td>CAT (CatBoost) : depth : [lower=6, upper=10] a...</td>
-      <td>XGB (XGBoost): n_estimators : max_depth : [low...</td>
+      <td>XGB (XGBoost): max_depth : [lower=6, upper=10,...</td>
       <td>0.47806</td>
     </tr>
   </tbody>
